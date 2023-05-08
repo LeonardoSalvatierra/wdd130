@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@300&display=swap');
+:root {
+    --primary-color: #007090;  
+    --secondary-color: #A3BAC3;
+    --accent-color: #EAEBED;
+    --add-accent-color: #01A7C2;
+    
+    --heading-font: "Montserrat", serif;
+    --default-font: "Merriweather", serif;
+
+    --nav-bg-color: #007090; 
+    --nav-link-color:#A3BAC3;
+    --nav-hover-link-color: #EAEBED;
+    --nav-hover-bg-color:#01A7C2;
+}
+* {
+    max-width: 1300px;
+}
+h1, h2, h3, h4 {
+    font-family: var(--heading-font);
+}    
+header {
+    background-color: var(--primary-color);
+    padding: 30px;
+}
+a {
+    padding: 60px;
+    color: var(--accent-color);
+    font-family: var(--heading-font);
+    font-size: x-large;
+    text-decoration-line: none;
+}
+p {
+    font-family: var(--default-font);
+    padding: 20px;
+    color: var(--accent-color);
+    font-size:x-large;
+    text-indent: 50px;
+}
+div h1 {
+    position: absolute;
+    top: 400px;
+    left: 500px;
+    background-color: var(--primary-color);
+}
+.hero img {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto; 
+}
+.hero h1 {
+    position: absolute;
+    left: 145px;
+    font-size: 40px;
+    background-color: rgba(0, 112, 144,0.75);
+    color: var(--accent-color);
+    padding: 20px;
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+.hero article {
+    position: absolute;
+    text-align: center;
+    top: 490px;
+    margin: 50px;
+    background-color: rgba(0, 112, 144,0.75);
+}
+.hero article p {
+    font-size: larger;
+    padding: 25px;
+    text-indent: 50px;
+    text-align:left;
+}
+.hero article img {
+    float:  right;
+    width: 200px;
+    height: auto;
+    margin: 15px;
+}
+section p {
+    background-color: rgba(0, 112, 144, 1);
+}
+section h2 {
+    font-size: xx-large;
+    color: var(--nav-bg-color);
+}
+footer p {
+    color: var(--primary-color);
+    font-size: medium;
+}
+footer img {
+    width: 90px;
+    height: auto;
+    padding: 20px;
+}
