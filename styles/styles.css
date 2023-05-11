@@ -3,49 +3,68 @@
     padding: 0;
     box-sizing: border-box;
 }
-nav {
-    background-color: rgb(50, 84, 104);
-    padding: 10px;
+
+header, footer {
+    max-width: 840px;
+    margin: 0;
 }
+
+nav {
+    background-color: rgb(18, 98, 107);
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    border: 2px solid rgb(24, 161, 176);
+}
+
 nav a {
-    color: white;
+    color: rgb(214, 234, 249);
     display: block;
     padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    
 }
+
 h1 {
-    color: steelblue;
+    color: rgb(18, 98, 107);
     margin: 15px;
 }
+
 main img {
     float: right;
     width: 150px;
     height: auto;
-    border: 1px solid steelblue;
+    border: 1px solid rgb(12, 72, 122);
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
+
 p {
     padding: 0;
 }
-main {
-    max-width: 800px;
-}
+
 aside {
     position: relative;
-    width: 800px;
     text-align: center;
 }
+
 aside img {
     margin: 30px;
-    width: 310px;
+    width: 420px;
     height: auto;
-    box-shadow: 0 0 30px rgb(244, 242, 164);
+    border: 2px solid rgb(150, 204, 248);
+    padding: 1px;
+
 }
+
 aside h2 {
-    position: absolute;
-    top: 45px;
-    left: 292px;
+    
+    align-self: center;
 }
+
 footer {
     margin-top: 2px;
     border-top: 2px;
@@ -53,6 +72,7 @@ footer {
     background-color: rgba(158, 194, 218, 0.5);
     text-align: center;
 }
+
 /* Class Selectors */
 .box {
     margin: 1rem;
@@ -60,6 +80,6 @@ footer {
     padding: 1rem;
     background-color: rgb(50, 84, 104);
     color: rgb(209, 223, 228);
-    font-size: large;
+    font-size: x-large;
     
 }
