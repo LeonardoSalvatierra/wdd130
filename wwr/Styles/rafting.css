@@ -13,12 +13,15 @@
     --nav-hover-link-color: #EAEBED;
     --nav-hover-bg-color:#01A7C2;
 }
+
 * {
     max-width: 1300px;
 }
+
 h1, h2, h3, h4 {
     font-family: var(--heading-font);
-}    
+}   
+
 header {
     background-color: var(--primary-color);
     padding: 20px;
@@ -56,6 +59,7 @@ nav {
     text-decoration: underline;
     font-weight: 700;
 }
+
 p {
     font-family: var(--default-font);
     padding: 20px;
@@ -63,18 +67,21 @@ p {
     font-size:x-large;
     text-indent: 50px;
 }
+
 div h1 {
     position: absolute;
     top: 400px;
     left: 500px;
     background-color: var(--primary-color);
 }
+
 .hero img {
     display: block;
     position:relative;
     width: 100%;
     height: auto; 
 }
+
 .hero h1 {
     position: absolute;
     left: 145px;
@@ -86,6 +93,7 @@ div h1 {
     padding-left: 300px;
     padding-right: 300px;
 }
+
 .hero article {
     position: absolute;
     text-align: center;
@@ -93,12 +101,14 @@ div h1 {
     margin: 50px;
     background-color: rgba(0, 112, 144,0.75);
 }
+
 .hero article p {
     font-size: larger;
     padding: 25px;
     text-indent: 50px;
     text-align:left;
 }
+
 .hero article img {
     float:  right;
     width: 200px;
@@ -110,7 +120,6 @@ div h1 {
     margin: 15px;
     padding: 0px;
     display: grid;
-    background-color: white;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     text-align:start ;
@@ -134,19 +143,54 @@ div h1 {
     height: auto;
 }
 
-section p {
-    background-color: rgba(0, 112, 144, 1);
+.history p {
+    background-color: var(--nav-bg-color);
 }
+
 section h2 {
-    font-size: xx-large;
-    color: var(--nav-bg-color);
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 42px;
+    color: var(--nav-hover-link-color);
+    text-align: center;
+    background-color: rgba(0, 112, 144, 0.8);
+    padding: 10px;
 }
+
+.adventure {
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    align-items: center;
+    background-color: var(--secondary-color);
+    
+}
+
+.adventure img {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+}
+
 footer p {
     color: var(--primary-color);
-    font-size: medium;
+    font-size: 18px;
 }
-footer img {
+
+.social-media img{
     width: 90px;
     height: auto;
     padding: 20px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
 }
