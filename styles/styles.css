@@ -9,7 +9,7 @@ header, .grid ,footer {
     margin: 0 auto;
 }
 
-nav {
+nav, div {
     background-color: rgb(18, 98, 107);
     padding: 1rem;
     display: flex;
