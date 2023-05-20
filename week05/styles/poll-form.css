@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap');
+
+:root {
+  --gfont: roboto;
+  --h1font: merriweather;
+}
+      
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 20px;
+}
+
+
+header {
+  margin: 0 auto;
+  width: 650px;
+}
+
+h1 {
+  font-family: var(--h1font);
+  font-size: 30px;
+  color: #12446f;
+  background-color: azure;
+  padding: 15px;
+  margin: 5px;
+  text-align: center;
+  border: 1px solid slategray;
+  border-radius: 0.5rem
+}
+
+body {
+  font-family: var(--gfont);
+  color: #12446f;
+  font-size: 20px;
+}
+
+.c-box {
+  background-color: azure;
+  border: 1px solid slategray;
+  border-radius: 0.5rem;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  margin: 5px
+}
+
+.q-box {
+  background-color: azure;
+  border: 1px solid slategray;
+  border-radius: 0.5rem;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+
+form {
+  width: 650px;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 1px solid rgb(120, 139, 159);
+  border-radius: 0.5rem;
+  background-color: azure;
+  display: grid;
+}
+
+fieldset {
+  display: grid;
+  grid-gap: .5rem;
+  border: none;
+}
+
+legend {
+  padding: 0.5rem;
+  color: #12446f;
+  font-size: 28px;
+}
+
+label, input, button, select, textarea {
+  font-family: sans-serif;
+  font-style: italic;
+}
+     
+label {
+  text-align: right;
+  padding-right: 1rem;
+}
+
+
+input, select, textarea {
+  padding: 0.5rem;
+  font-size: 20px;
+  border-radius: 0.5rem;
+}
+
+input[type="checkbox"] {
+  width: 22px;
+  height: 22px;
+  vertical-align: bottom;
+}
+
+button {
+  margin: 1rem;
+  background-color: teal;
+  color: #fff;
+  border: none;
+  border-radius: .5rem;
+  padding: .75rem;
+  font-size: 1.2rem;
+}
+
+button:hover {
+  background-color: rgb(194, 236, 250);
+  color: #12446f;
+}
+
+footer {
+  margin: 1rem auto 0;
+  width: 650px;
+  text-align: center;
+  font-size: 0.8em;
+  color: #777;
+  border-top: 1px solid #ccc;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.6rem 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+    margin: 0.6rem 0;
+}
