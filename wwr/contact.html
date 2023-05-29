@@ -7,7 +7,7 @@
     <meta name="description" content="contact us to experience thrilling rafting adventures with our premier company.">
     <meta name="author" content="Leonardo Salvatierra">
     <link rel="stylesheet" type="text/css" href="Styles/rafting.css">
-    <title>River Runners - Contat Us</title>
+    <title>River Runners - Contact Us</title>
 </head>
 <body>
     <header>
@@ -83,13 +83,12 @@
                 <input type="text" id="fullname" name="fullname">
                 <label for="email">What is your Email?</label>
                 <input type="email" id="email" name="email">
-                <label for="purpose">What is the purpose of your message?</label>
-                <select name="purpose" id="purpose">
-                    <option value="" selected disabled>Please select one option...</option>
-                    <option value="inquiry">General Inquiry</option>
-                    <option value="reservation">Reservation Question</option>
-                    <option value="suggestion">Website Suggestion</option>
-                </select>
+                <legend>What is the purpose of your message?</legend>
+                <div class="radio-button">
+                    <label for="inquiry"><input type="radio" id="inquiry" name="inquiry" value="inquiry" />General Inquiry</label>
+                    <label for="question"><input type="radio" id="question" name="question" value="question" />Reservation Question</label>
+                    <label for="suggestion"><input type="radio" id="suggestion" name="suggestion" value="suggestion" />Website Suggestion</label>
+                </div>
                 <label for="message">Write your message:</label>
                 <textarea name="message" id="message" rows="10"></textarea>
                 <label for="subscribe-letter">Please subscribe me to the monthly newsletter</label>
