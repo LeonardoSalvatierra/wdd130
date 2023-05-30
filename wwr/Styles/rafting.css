@@ -26,14 +26,20 @@ header {
     background-color: var(--primary-color);
     padding: 20px;
     margin: 1rem auto;
-    display: grid;
-    grid-template-columns: 1fr 2fr ;
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
     align-items: center;
 }
 
 header img {
+    border: 1px solid var(--nav-link-color);
+    border-radius: 40px;
+    width: 100px;
+    height: 100%;
     display: flex;
-    margin: 0;
+    flex-direction: row;
+    justify-content: left;
 }
 
 nav {
@@ -42,7 +48,11 @@ nav {
 
 .menu {
     display: flex;
+    flex-direction: row;
     list-style: none;
+    justify-content: space-between;
+    width: 900px;
+    margin-inline: 65px;
 }
 
 .menu a{
@@ -196,6 +206,7 @@ footer {
 }
 
 .contact-us-main {
+    width: 1fr;
     margin-top: 30px;
     background-color: var(--primary-color);
     padding: 30px;
@@ -243,7 +254,7 @@ footer {
 
 .image-background {
     position: absolute;
-    top: 200px;
+    top: 175px;
     opacity: 25%;
     z-index: -1;
     width: 1285px;
