@@ -695,12 +695,7 @@ li {
     background-color: #012e3a;
 }
 
-#footer-trip{
-    display: flex;
-    flex-direction: column;
-}
-
-.social-media p{
-    align-self: center;
-    margin-right: 400px;
+#trips-footer {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
 }
