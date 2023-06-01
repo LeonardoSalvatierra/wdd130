@@ -699,3 +699,14 @@ li {
     display: grid;
     grid-template-columns: 2fr 1fr;
 }
+
+#trips-footer a, #trips-footer p{
+    color: var(--primary-color);
+    font-size: 15px;
+}
+
+#trips-footer a:hover{
+    color: var(--primary-color);
+    font-size: 17px;
+    font-weight: 700;
+}
